@@ -1,0 +1,135 @@
+#title
+{
+  background-color:#58b4ae;
+  font-family:Montserrat;
+
+}
+.navbar-brand
+{
+  font-size:40px;
+}
+
+.nav-item
+{
+  padding-right:40px;
+}
+.container-fluid
+{
+  padding:3% 15%;
+
+}
+.nav-link
+{
+  font-size: 1.2rem;
+  font-family:'Montserrat-light';
+}
+nav
+{
+margin-bottom: 60px;
+margin-top:20px;
+position:fixed;
+}
+.row
+{
+  padding:0 20px 0 20px;
+}
+
+.title-image
+{
+  margin-left:30px;
+}
+.title-text
+{
+  margin-right: 20px;
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side */
+.flip-box-front {
+  background-color:#ffe2bc;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateX(180deg);
+}
+
+.flip-box-back {
+  transform: rotateX(180deg);
+  font-size:20px;
+}
+
+#features
+{
+padding:7% 15%;
+background-color:#ffe277;
+}
+.row
+{
+  margin-bottom: 30px;
+}
+.structure
+{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.feature-box
+{
+  text-align:center;
+  padding:5px;
+}
+.classes
+{
+  display:inline-block;
+position:relative;
+top:70px;
+  }
+#contact{
+
+  padding:90px;
+  background-color: #ffb367
+}
+i
+{
+  margin: auto;
+  padding-left:60px;
+}
+.alert
+{
+  color:red;
+}
